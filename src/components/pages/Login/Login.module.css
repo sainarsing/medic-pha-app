@@ -1,0 +1,117 @@
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes inputFocus {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .loginContainer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 40px;
+    border-radius: 12px; /* Increased border-radius for more curves */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+    width: 400px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .loginContainer:hover {
+    transform: scale(1.02);
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+  
+  .inputField {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da; /* Light border color */
+    border-radius: 6px; /* Slightly curved borders */
+    font-size: 14px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .inputField:focus {
+    animation: inputFocus 0.5s ease-in-out;
+    outline: none;
+    border: 1px solid #007bff; /* Blue border on focus */
+  }
+  
+  .submitButton {
+    background-color: #28a745; /* Green submit button */
+    color: #fff;
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submitButton:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .registrationSection {
+    margin-top: 20px;
+  }
+  
+  .registerLabel {
+    color: #6c757d; /* Subdued text color */
+    font-size: 14px;
+  }
+  
+  .registerButton {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .registerButton:hover {
+    background-color: #218838;
+  }
+  .loginHeading {
+    
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  

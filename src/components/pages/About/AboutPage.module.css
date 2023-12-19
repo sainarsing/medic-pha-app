@@ -1,0 +1,80 @@
+/* AboutPage.module.css */
+.container {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333; /* Dark color for the heading */
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555; /* Slightly darker color for the description */
+  }
+  
+  .imageGrid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #fff; /* White border for images */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image:hover {
+    transform: scale(1.1); /* Zoom in a bit on hover */
+  }
+  
+  .subHeading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .reviewsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .review {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .review:hover {
+    transform: translateY(-5px); /* Lift up a bit on hover */
+  }
+  
+  .review p {
+    margin-bottom: 12px;
+    color: #555;
+  }
+  
+  .reviewAuthor {
+    font-style: italic;
+    color: #777; /* Lighter color for the author */
+  }
+  
+  /* Add more styles for the team section as needed */
+  

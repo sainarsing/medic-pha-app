@@ -1,0 +1,131 @@
+/* CartPage.module.css */
+
+.mainContainer {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+  }
+  
+  .leftContainer {
+    width: 65%;
+  }
+  
+  .bag {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .leftPart {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .cartImage {
+    width: 100px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .leftTitleBlock {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .horizontalLine {
+    margin-left: 12%;
+  }
+  
+  .incrementContainer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .decrement,
+  .increment {
+    background-color: #27877a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 12px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .decrement:hover,
+  .increment:hover {
+    background-color: #218838;
+    transform: scale(1.1);
+  }
+  
+  .count {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .remove {
+    background-color: #35989f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 50px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .remove:hover {
+    background-color: #254646;
+    transform: scale(1.1);
+  }
+  
+  .priceBlock {
+    margin-top: 10px;
+  }
+  
+  .rightContainer {
+    width: 30%;
+  }
+  
+  .summary {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .rightBlock1,
+  .rightBlock2,
+  .totalBlock {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .rightBlock2 {
+    margin-top: 15px;
+  }
+  
+  .buyNow {
+    background-color: #25b9be;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    margin-top: 15px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .buyNow:hover {
+    background-color: #2779a5;
+    transform: scale(1.05);
+  }
+  
